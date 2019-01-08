@@ -31,9 +31,9 @@ HTTPS_PORT | Port for the HTTPS server | 4001
 CERT | Path to the SSL certificate |
 KEY | Path to the SSL key file |
 
-A HTTPS server is launched only if both the `CERT` and `KEY` variable are set.
+An HTTPS server is launched only if both the `CERT` and `KEY` variable are set.
 
-The server provides a single route, `/hello`, which sends back a message as a JSON object. Thne message includes the request payload.
+The server provides a single route, `/hello`, which sends back a message as a JSON object. The message includes the request payload.
 
 ## Examples
 
